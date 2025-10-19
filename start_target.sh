@@ -1,0 +1,1 @@
+docker run -d --name target --network labnet -p 22222:22 challengessh

@@ -1,0 +1,1 @@
+docker run -it --name attacker --network labnet --rm -v $(pwd)/metasploitenv/sshsls.rb:/usr/src/metasploit-framework/modules/exploits/multi/ssh/sshsls.rb metasploitenv
